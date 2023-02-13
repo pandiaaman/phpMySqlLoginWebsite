@@ -28,9 +28,11 @@ if(isset($_SESSION["username"])){
     <div class="navmenu">
       <a href="./pdoselectdata.php">see all data</a>
       <a href="./main.php">HOME</a>
-      <form method="post" action="<?=$_SERVER['PHP_SELF']?>">
+      <!-- <form method="post" action="<?php // echo ($_SERVER['PHP_SELF'])?>">
         <input type="submit" value="logout" name="logout">
-      </form>
+      </form> -->
+
+      <a href="./logout.php">logout</a>
     </div>
 
   </nav>
