@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  letter-spacing: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(123, 187, 215);
+  /* text-align: center; */
+}
+
+.head {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body h3,
+h4 {
+  padding: 1rem;
+}
+
+input {
+  width: 50%;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+textarea {
+  width: 50%;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: purple;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* border-radius: 20%; */
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+
+.navmenu a {
+  padding-left: 1rem;
+}
